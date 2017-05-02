@@ -1,7 +1,7 @@
 {
-  "name": "Poly",
+  "name": "simple-react-redux-scss-hmr-livereload-boilerplate",
   "version": "1.0.0",
-  "description": "Poly",
+  "description": "Simple boilerplate app using react + scss with hmr and livereload.",
   "main": "server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     "postinstall": "npm run build",
     "dev": "NODE_ENV=development concurrently --kill-others 'npm run watch-js' 'npm run watch-css' 'npm run watch-server' 'npm run livereload-css'"
   },
-  "author": "pwoodworth@foodfuturecolab.com",
+  "author": "pswoodworth@gmail.com",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^6.6.0",
