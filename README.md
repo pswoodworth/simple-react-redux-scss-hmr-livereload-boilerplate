@@ -59,15 +59,16 @@ simple-react-redux-scss-hmr-livereload-boilerplate/
 │   │   ├── store/
 │   │   ├── utils/
 │   │   └── views/
-│   │   │   ├── Hey               # Example of a react view (might be like /login or something)
-│   │   │   │   ├── hey.scss      # SCSS for this view , auto-imported. this is opinionated, but I like breaking down SCSS this way
-│   │   │   │   └── index.js      # The top-level react element for the view
-│   │   │   ├── Layout            # Same as above, here we're spelling out a layout view
-│   │   │   │   ├── components    # Components that are just for this view can go here
-│   │   │   │   │   └── Header.js
-│   │   │   │   ├── index.js
-│   │   │   │   └── layout.scss   
-│   │   │   └── index.js          # The top level view that contains the router
+│   │       ├── Hey               # Example of a react view (might be like /login or something)
+│   │       │   ├── hey.scss      # SCSS for this view, it will auto import (see shared-styles below)
+│   │       │   └── index.js      # The top-level react element for the view
+│   │       ├── Layout            # Same as above, here we're spelling out a layout view
+│   │       │   ├── components    # Components that are just for this view can go here
+│   │       │   │   └── Header.js
+│   │       │   ├── index.js
+│   │       │   └── layout.scss   
+│   │       └── index.js          # The top level view that contains the router
+│   │                             # Add additional views here with the same structure
 │   └── shared-style/ 
 │       └── app.scss              # shared style throughout the app
 |                                 # put things like master SCSS variables here
