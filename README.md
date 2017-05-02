@@ -12,6 +12,10 @@ The goal here is to get in all the pieces that I think I'm quite likely to use i
 
 
 ## Out of the box
+```
+npm install
+```
+To get started. This will also build the production app as a post-build. That's a nice check to be sure the build processes are working correctly in your environment and also sets you up to deply to place like heroku.
 
 ```
 npm run dev
@@ -30,6 +34,7 @@ You can now fire up `node ./server` and your production app should be ready to g
 
 ## File directory
 ```
+├── Procfile                      # if you're a heroku fan you're ready to go! if not ignore/delete this.
 ├── package.json
 ├── public/
 │   └── build/                    # built app goes here
@@ -53,7 +58,7 @@ You can now fire up `node ./server` and your production app should be ready to g
 │   │   ├── utils/
 │   │   └── views/
 │   │   │   ├── Hey               # Example of a react view (might be like /login or something)
-│   │   │   │   ├── hey.scss      # SCSS for this view – this is opinionated, but I like breaking down SCSS this way
+│   │   │   │   ├── hey.scss      # SCSS for this view , auto-imported. this is opinionated, but I like breaking down SCSS this way
 │   │   │   │   └── index.js      # The top-level react element for the view
 │   │   │   ├── Layout            # Same as above, here we're spelling out a layout view
 │   │   │   │   ├── components    # Components that are just for this view can go here
