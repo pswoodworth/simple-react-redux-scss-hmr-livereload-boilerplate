@@ -15,7 +15,7 @@ The goal here is to get in all the pieces that I think I'm quite likely to use i
 ```
 npm install
 ```
-To get started. This will also build the production app as a post-build. That's a nice check to be sure the build processes are working correctly in your environment and also sets you up to deply to place like heroku.
+To get started. This will also build the production app as a post-build. That's a nice check to be sure the build processes are working correctly in your environment and also sets you up to deploy to place likes heroku where you'll need a build-hook built in.
 
 ```
 npm run dev
