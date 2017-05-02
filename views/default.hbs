@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="/build/app.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Welcome</title>
+  
+  
+</head>
+<body>
+  <div id="root">{{#if renderedContent}}{{{renderedContent}}}{{/if}}</div>
+  {{#if devEnv}}
+    <script src="http://localhost:8080/public/build/app.js"></script>
+  {{else}}
+    <script src="/build/app.js"></script>
+  {{/if}}
+</body>

@@ -1,0 +1,23 @@
+// remove craziness
+@-ms-viewport{
+  width: device-width;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  -webkit-tap-highlight-color: transparent;
+}
+
+// Other imports
+
+// @import './blah'
+
+// Blob import from individual views
+@import '../js/views/**/*.scss';
+
+

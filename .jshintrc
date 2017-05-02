@@ -1,0 +1,9 @@
+{
+  "esversion": 6,
+  "globals":{
+    "require": true,
+    "setInterval": true,
+    "process": true,
+    "console": true
+  }
+}
