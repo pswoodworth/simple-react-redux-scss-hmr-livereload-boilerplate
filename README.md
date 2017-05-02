@@ -34,6 +34,7 @@ You can now fire up `node ./server` and your production app should be ready to g
 
 ## File directory
 ```
+simple-react-redux-scss-hmr-livereload-boilerplate/
 ├── .env.example                  # Example env variables. Replace with your own private .env.
 ├── Procfile                      # if you're a heroku fan you're ready to go! if not ignore/delete this.
 ├── package.json
