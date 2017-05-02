@@ -7,7 +7,7 @@ The goal here is to get in all the pieces that I think I'm quite likely to use i
 - Redux
 - SCSS (built using node-sass)
 - Express (ready to go to build additional views, like an API)
-- Livereload server (requires plugin to be installed on your browser)
+- Livereload (requires plugin to be installed on your browser)
 - Hot Module Reloading
 
 
@@ -34,6 +34,7 @@ You can now fire up `node ./server` and your production app should be ready to g
 
 ## File directory
 ```
+├── .env.example                  # Example env variables. Replace with your own private .env.
 ├── Procfile                      # if you're a heroku fan you're ready to go! if not ignore/delete this.
 ├── package.json
 ├── public/
@@ -74,3 +75,4 @@ You can now fire up `node ./server` and your production app should be ready to g
 ├── webpack-dev-server.js         # This is all webpack \/
 ├── webpack.config.js
 └── webpack.dev.config.js
+```
