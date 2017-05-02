@@ -54,7 +54,7 @@ You can now fire up `node ./server` and your production app should be ready to g
 │   │   ├── middleware/           # middlewares here
 │   │   ├── reducers/             # reducers here
 │   │   ├── selectors/            # selectors here
-│   │   ├── shared-components/    # I like to keep 
+│   │   ├── shared-components/    # I like to keep components that get reused a lot up here
 │   │   ├── store/
 │   │   ├── utils/
 │   │   └── views/
