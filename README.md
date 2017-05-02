@@ -29,7 +29,7 @@ Starts watchers on javascript and SCSS, pop on livereload and any changes you ma
 npm run build
 ```
 Builds and minifies the frontend JS and SCSS and builds the server.
-You can now fire up `node server-build` and your production app should be ready to go at `localhost:3000`
+You can now fire up `NODE_ENV=production node server-build` and your production app should be ready to go at `localhost:3000`
 
 
 ## File directory
