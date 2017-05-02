@@ -33,7 +33,7 @@
     "babel-register": "^6.16.3",
     "body-parser": "^1.17.1",
     "cssnano": "^3.9.1",
-    "dotenv": "^2.0.0",
+    "dotenv-safe": "^4.0.4",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
     "express-jwt": "^5.1.0",

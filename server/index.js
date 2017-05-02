@@ -1,8 +1,5 @@
-try{
-  require('dotenv').load();
-}catch(e){
-  // we aren't using a .env here
-}
+require('dotenv-safe').load();
+
 import express from 'express';
 import handlebars  from 'express-handlebars';
 import React from 'react';
