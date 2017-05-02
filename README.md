@@ -79,4 +79,4 @@ simple-react-redux-scss-hmr-livereload-boilerplate/
 ```
 
 ## Known Problems
-- [] Using webpack dev server unfortunately means the accessing the app through a local network on another device (like a phone, tablet) won't work – at least at the moment. Working on it.
+- [ ] Using `webpack-dev-server` unfortunately means the accessing the app through a local network on another device (like a phone, tablet) won't work – at least at the moment. Working on it.
