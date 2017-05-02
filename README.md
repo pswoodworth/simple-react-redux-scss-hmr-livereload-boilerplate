@@ -7,7 +7,7 @@ The goal here is to get in all the pieces that I think I'm quite likely to use i
 - Redux
 - SCSS (built using node-sass)
 - Express (ready to go to build additional views, like an API)
-- Livereload (requires plugin to be installed on your browser)
+- Livereload
 - Hot Module Reloading
 
 
@@ -77,3 +77,6 @@ simple-react-redux-scss-hmr-livereload-boilerplate/
 ├── webpack.config.js
 └── webpack.dev.config.js
 ```
+
+## Known Problems
+- [] Using webpack dev server unfortunately means the accessing the app through a local network on another device (like a phone, tablet) won't work – at least at the moment. Working on it.
