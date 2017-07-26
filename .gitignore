@@ -3,3 +3,4 @@ public/build
 node_modules
 server-build
 .DS_Store
+package-lock.json
